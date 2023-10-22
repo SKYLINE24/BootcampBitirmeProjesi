@@ -19,6 +19,7 @@ class MainVCViewModel{
         orderQuantity = repo.orderQuantity
         sepettekiYemekListesi = repo.sepettekiYemekListesi
     }
+    
     func uploadFoodList(){
         repo.uploadFoodList()
     }
@@ -32,10 +33,6 @@ class MainVCViewModel{
     
     func takePicOfFood(imageName: String) -> URL?{
         return repo.takePicOfFood(imageName: imageName)
-    }
-    
-    func deleteFromCart(sepet_yemek_id: Int, kullanici_adi: String){
-        repo.deleteFromCart(sepet_yemek_id: sepet_yemek_id, kullanici_adi: kullanici_adi)
     }
     //ürün tekrar ekleme işlemi
     func addAgainTocart(sepettekiListe : [SepettekiYemekler], yemek: Yemekler?, viewModel: MainVCViewModel){
@@ -64,4 +61,9 @@ class MainVCViewModel{
             }
         }
     }
+    func deleteFromCart(sepet_yemek_id: Int, kullanici_adi: String){
+        repo.deleteFromCart(sepet_yemek_id: sepet_yemek_id, kullanici_adi: kullanici_adi)
+    }
+    
+    
 }

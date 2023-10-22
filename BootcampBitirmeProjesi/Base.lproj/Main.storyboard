@@ -23,9 +23,6 @@
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="string" keyPath="layer.cornerRadius" value="5"/>
                                 </userDefinedRuntimeAttributes>
-                                <connections>
-                                    <outlet property="delegate" destination="BYZ-38-t0r" id="xmW-Yj-92G"/>
-                                </connections>
                             </searchBar>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="vqo-6a-l92">
                                 <rect key="frame" x="0.0" y="104" width="414" height="743"/>
@@ -177,7 +174,6 @@
                     </navigationItem>
                     <connections>
                         <outlet property="foodsTableView" destination="vqo-6a-l92" id="WcJ-rQ-lWw"/>
-                        <outlet property="searchBar" destination="omQ-dS-AVm" id="4pV-FD-RWJ"/>
                         <segue destination="fwk-hF-uqE" kind="showDetail" identifier="toDetayVC" id="NOs-Ef-VeN"/>
                     </connections>
                 </viewController>

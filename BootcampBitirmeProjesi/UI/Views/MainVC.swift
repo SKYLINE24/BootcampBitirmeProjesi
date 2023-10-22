@@ -15,7 +15,6 @@ import Kingfisher
 class MainVC: UIViewController {
 
     @IBOutlet weak var foodsTableView: UITableView!
-    @IBOutlet weak var searchBar: UISearchBar!
     
     var foodsList = [Yemekler]()
     
@@ -24,7 +23,6 @@ class MainVC: UIViewController {
     var sepettekiListe  = [SepettekiYemekler]()
     override func viewDidLoad() {
         super.viewDidLoad()
-        searchBar.delegate = self
         foodsTableView.delegate = self
         foodsTableView.dataSource = self
         
@@ -46,13 +44,13 @@ class MainVC: UIViewController {
         }
     }
 }
-//MARK: SearchBar EXTENSİONS
-extension MainVC: UISearchBarDelegate{
+//MARK: EXTENSİONS
+
+extension MainVC: UITableViewDelegate,UITableViewDataSource{
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return yemekListesi.count
     }
-}
-extension MainVC: UITableViewDelegate,UITableViewDataSource{
+    
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "foodsCell", for: indexPath) as! FoodsCell
         let food = yemekListesi[indexPath.row]
