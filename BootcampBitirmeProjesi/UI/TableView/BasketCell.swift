@@ -8,7 +8,15 @@
 import UIKit
 
 class BasketCell: UITableViewCell {
-
+    @IBOutlet weak var imageFoodImage: UIImageView!
+    @IBOutlet weak var labelFoodName: UILabel!
+    @IBOutlet weak var labelFoodCost: UILabel!
+    @IBOutlet weak var labelFoodNumber: UILabel!
+    @IBOutlet weak var labelFoodTotalCost: UILabel!
+    
+    var yemek = SepettekiYemekler()
+    
+    
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
@@ -17,7 +25,6 @@ class BasketCell: UITableViewCell {
     override func setSelected(_ selected: Bool, animated: Bool) {
         super.setSelected(selected, animated: animated)
 
-        // Configure the view for the selected state
     }
-
+    
 }

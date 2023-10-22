@@ -6,3 +6,12 @@
 //
 
 import Foundation
+
+
+class EntryVCViewModel{
+    var user = EntryVC()
+    
+    func entryQuery(){
+        
+    }
+}

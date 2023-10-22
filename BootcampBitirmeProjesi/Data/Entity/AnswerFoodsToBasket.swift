@@ -6,3 +6,9 @@
 //
 
 import Foundation
+
+class SepettekiYemeklerResponse: Codable{
+    
+    var sepet_yemekler : [SepettekiYemekler]?
+    var success: Int?
+}
