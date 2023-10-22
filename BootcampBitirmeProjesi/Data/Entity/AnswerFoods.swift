@@ -8,7 +8,6 @@
 import Foundation
 
 class YemeklerResponse: Codable {
-    
-    var yemekler: [Yemekler]?
-    var success :Int?
+    var yemekler:[Yemekler]?
+    var success:Int?
 }
