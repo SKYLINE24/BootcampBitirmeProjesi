@@ -29,4 +29,3 @@ class SepettekiYemekler: Codable{
         self.kullanici_adi      = kullanici_adi
     }
 }
-
