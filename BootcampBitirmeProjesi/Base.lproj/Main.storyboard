@@ -241,15 +241,6 @@
                                                             <nil key="textColor"/>
                                                             <nil key="highlightedColor"/>
                                                         </label>
-                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9RS-Wr-v1t">
-                                                            <rect key="frame" x="304" y="116" width="54" height="26"/>
-                                                            <constraints>
-                                                                <constraint firstAttribute="height" constant="26" id="wGT-6O-cbw"/>
-                                                            </constraints>
-                                                            <fontDescription key="fontDescription" type="boldSystem" pointSize="21"/>
-                                                            <color key="textColor" name="kapalıMavi"/>
-                                                            <nil key="highlightedColor"/>
-                                                        </label>
                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="H5Z-7j-yvy">
                                                             <rect key="frame" x="230" y="61" width="42" height="21"/>
                                                             <fontDescription key="fontDescription" type="system" pointSize="17"/>
@@ -263,14 +254,12 @@
                                                         <constraint firstAttribute="height" constant="142" id="At2-dJ-70O"/>
                                                         <constraint firstItem="Q9o-42-Bmt" firstAttribute="leading" secondItem="MnX-BI-cpa" secondAttribute="trailing" constant="8" id="MoX-Ci-IYw"/>
                                                         <constraint firstAttribute="bottom" secondItem="ee4-aC-o6W" secondAttribute="bottom" constant="8" id="Niq-E6-9JV"/>
-                                                        <constraint firstAttribute="bottom" secondItem="9RS-Wr-v1t" secondAttribute="bottom" id="Nn2-eZ-USe"/>
                                                         <constraint firstItem="Uqt-Fv-5WB" firstAttribute="centerY" secondItem="ee4-aC-o6W" secondAttribute="centerY" id="OBY-vd-GvV"/>
                                                         <constraint firstItem="nTE-Ne-nkJ" firstAttribute="leading" secondItem="MnX-BI-cpa" secondAttribute="trailing" constant="8" id="RsF-Nx-ZAC"/>
                                                         <constraint firstItem="H5Z-7j-yvy" firstAttribute="leading" secondItem="nTE-Ne-nkJ" secondAttribute="trailing" constant="4" id="S5V-t8-mid"/>
                                                         <constraint firstItem="Q9o-42-Bmt" firstAttribute="top" secondItem="WEg-2o-zwg" secondAttribute="top" constant="8" id="XWR-sJ-GkW"/>
                                                         <constraint firstItem="H5Z-7j-yvy" firstAttribute="centerY" secondItem="nTE-Ne-nkJ" secondAttribute="centerY" id="cNg-uU-2hS"/>
                                                         <constraint firstItem="ee4-aC-o6W" firstAttribute="leading" secondItem="MnX-BI-cpa" secondAttribute="trailing" constant="8" id="eBf-Yv-cxv"/>
-                                                        <constraint firstAttribute="trailing" secondItem="9RS-Wr-v1t" secondAttribute="trailing" id="foc-dO-Hk3"/>
                                                         <constraint firstItem="MnX-BI-cpa" firstAttribute="leading" secondItem="WEg-2o-zwg" secondAttribute="leading" id="iN3-o3-fxa"/>
                                                         <constraint firstItem="MnX-BI-cpa" firstAttribute="top" secondItem="WEg-2o-zwg" secondAttribute="top" id="u3p-Aj-cFN"/>
                                                         <constraint firstItem="nTE-Ne-nkJ" firstAttribute="top" secondItem="Q9o-42-Bmt" secondAttribute="bottom" constant="32" id="ubr-Vl-TIQ"/>
@@ -290,7 +279,6 @@
                                             <outlet property="labelFoodCost" destination="H5Z-7j-yvy" id="tXZ-6g-Xga"/>
                                             <outlet property="labelFoodName" destination="Q9o-42-Bmt" id="ZYx-R3-78u"/>
                                             <outlet property="labelFoodNumber" destination="Uqt-Fv-5WB" id="2Mm-8E-dZM"/>
-                                            <outlet property="labelFoodTotalCost" destination="9RS-Wr-v1t" id="J2h-rq-fmg"/>
                                         </connections>
                                     </tableViewCell>
                                 </prototypes>

@@ -12,7 +12,6 @@ class BasketCell: UITableViewCell {
     @IBOutlet weak var labelFoodName: UILabel!
     @IBOutlet weak var labelFoodCost: UILabel!
     @IBOutlet weak var labelFoodNumber: UILabel!
-    @IBOutlet weak var labelFoodTotalCost: UILabel!
     
     var yemek = SepettekiYemekler()
     

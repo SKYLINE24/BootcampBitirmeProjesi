@@ -80,7 +80,7 @@ extension BasketVC: UITableViewDelegate, UITableViewDataSource{
             }
         }
         cell.labelFoodCost.text = "₺ \(food.yemek_fiyat!),00"
-        cell.labelFoodName.text = " \(food.yemek_siparis_adet!) Adet"
+        cell.labelFoodNumber.text = " \(food.yemek_siparis_adet!) Adet"
         cell.yemek = food
         cell.selectionStyle = .none
         
